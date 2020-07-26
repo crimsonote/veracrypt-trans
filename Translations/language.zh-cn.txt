@@ -1,0 +1,160 @@
+EN:1-pass
+LOCALE:1-次擦除
+EN:35-pass
+LOCALE:35-次擦除
+EN:3-pass
+LOCALE:3-次擦除
+EN:7-pass
+LOCALE:7-次擦除
+EN:&Abort
+LOCALE:放弃(&A)
+EN:Actions to Perform when User Logs On
+LOCALE:登陆时执行的操作
+EN:Add All Mounted Volumes to Favorites...
+LOCALE:将所有安装的卷添加到收藏夹...
+EN:Add Selected Volume to Favorites...
+LOCALE:将选定的卷添加到收藏夹...
+EN:Background Task
+LOCALE:后台任务
+EN:&Browse...
+LOCALE:浏览...(&B)
+EN:Cach&e passwords and keyfiles in memory 
+LOCALE:在内存中缓存密码和密钥文件
+EN:Cache passwords in memory
+LOCALE:将密码缓存在内存中
+EN:Change Header Key Derivation Algorithm...
+LOCALE:更改标头密钥派生算法...
+EN:Close all Explorer windows of volume being dismounted
+LOCALE:关闭正在卸载的卷的所有资源管理器窗口
+EN:Confirm password:
+LOCALE:确认密码:
+#EN:Courier
+#LOCALE:
+#EN:Courier New
+#LOCALE:
+EN:Data unit number (64-bit, data unit size is 512 bytes)
+LOCALE:数据单元数值（64-位十六进制，数据单元大小为 512 字节）
+EN:Default Keyfiles
+LOCALE:默认密钥文件
+EN:Dismount All Volumes When
+LOCALE:卸载全部加密卷，当
+EN:Dismount Mounted Volumes
+LOCALE:卸载已安装的卷
+EN:Display confirmation message box after dismount
+LOCALE:卸载后显示确认提示框
+EN:Donate
+LOCALE:捐赠
+EN:Do not accelerate AES encryption/decryption by using the AES instructions of the processor
+LOCALE:不要通过使用处理器的AES指令来加速AES加密/解密
+EN:Do &not mount
+LOCALE:不要挂载
+EN:Do not use kernel cryptographic services
+LOCALE:不要使用内核加密服务
+EN:Enabled
+LOCALE:启用
+EN:Encryption algorithm:
+LOCALE:加密算法:
+EN:&Favorites
+LOCALE:收藏夹(&F)
+EN:Filesystem
+LOCALE:文件系统
+EN:Filesystem Explorer
+LOCALE:文件系统资源管理器
+EN:Filesystem Options
+LOCALE:文件系统选项
+EN:Filesystem type:
+LOCALE:文件系统类型:
+EN:Header Key:
+LOCALE:首密钥
+EN:Header Wipe:
+LOCALE:擦除标头
+EN:Hotkeys
+LOCALE:快捷键
+EN:Hotkeys...
+LOCALE:快捷键...
+EN:Kernel Services
+LOCALE:内核服务
+EN:Keyfiles
+LOCALE:密钥文件
+EN:Master Key:
+LOCALE:主密钥:
+EN:More information
+LOCALE:更多信息
+EN:Mount at directory:
+LOCALE:挂载到文件夹:
+EN:Mount favorite volumes
+LOCALE:挂载收藏加密卷
+EN:Mount options:
+LOCALE:mount挂载选项:
+EN:Mount Options
+LOCALE:挂载选项
+EN:Mount partition &using system encryption (preboot authentication)
+LOCALE:以非预启动验证方式加载使用系统加密处理的分区(&U)
+EN:Mount volume as &read-only
+LOCALE:以只读模式加载加密卷(&R)
+#EN:MyLabel
+#LOCALE:
+#EN:OK
+#LOCALE:确定
+EN:Open Mounted Volumes
+LOCALE:打开已安装的卷
+EN:Op&tions
+LOCALE:操作(&T)
+EN:Page Title
+LOCALE:页面标题
+EN:Performance
+LOCALE:性能
+EN:PKCS #11 Library Path
+LOCALE:PKCS #11 运行库路径
+EN:Play system notification sound after mount/dismount
+LOCALE:挂载/卸载后播放通知
+EN:&Preferences...
+LOCALE:偏好设置(&P)
+EN:&Protect hidden volume when mounting outer volume
+LOCALE:安装外部卷时保护隐藏卷
+EN:Quick format
+LOCALE:快速格式化
+EN:Randomness Collected From Mouse Movements
+LOCALE:从鼠标移动中收集随机值
+EN:Random Pool:
+LOCALE:随机池
+EN:Random size (64 <-> 1048576)
+LOCALE:随机大小 ( 64 <-> 1048576 )
+EN:Security
+LOCALE:安全性
+EN:Security Tokens
+LOCALE:安全令牌
+EN:Se&lect...
+LOCALE:选择(&l)
+EN:Shortcut
+LOCALE:快捷键
+EN:Show
+LOCALE:显示
+EN:System Integration
+LOCALE:系统集成
+EN:System is entering power saving mode
+LOCALE:系统进入待机状态
+EN:System-Wide Hotkeys
+LOCALE:系统范围快捷键
+EN:Task Icon Menu Items
+LOCALE:任务图标菜单栏
+#EN:Times New Roman
+#LOCALE:
+EN:U&se keyfiles
+LOCALE:使用密钥文件(&S)
+EN:Use keyfiles by default
+LOCALE:默认情况下使用密钥文件
+EN:Volume
+LOCALE:加密卷
+EN:Volume Format Options
+LOCALE:卷格式选项
+EN:Volume PIM:
+LOCALE:加密卷 PIM:
+EN:Volume Properties...
+LOCALE:加密卷属性
+EN:Wipe after VeraCrypt window has been closed
+LOCALE:关闭VeraCrypt窗口后擦除
+EN:Wipe after volume has been auto-dismounted
+LOCALE:自动卸除卷之后擦除
+EN:< &Prev
+LOCALE:< 后退

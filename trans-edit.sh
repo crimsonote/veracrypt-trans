@@ -7,8 +7,8 @@ key_total="$(xmllint --xpath "/VeraCrypt/localization/entry/@key" ${locale_xml}|
 keynum=1
 function sed_code_trans(){
     en_sed_string="$(echo "${1}"|sed "s#[\][n]#[\\\][n]#g")"
-    locale_sed_string="$(echo "${2}"|sed "s#[\][n]#\\\\\\\\\\\n#g")"
-    sed "s#\"${1}\"#\"${2}\"#g" -i ${3}
+    locale_sed_string="$(echo "${2}"|sed "s#[\][n]#\\\\\\\\\\\n#g;s#&#\\\&#g")"
+    sed "s#\"${en_sed_string}\"#\"${locale_sed_string}\"#g" -i ${3}
     #echo "s#${1}#${2}#g" "-i"  "${3}"
 }
 function filter_code(){
@@ -21,10 +21,31 @@ function continue_filter(){
     case $1 in
 	a|b)
 	    echo "${filter_result}" >> /tmp/fulter,log
-	    edit_code_file_list="$(echo "${filter_result}"|cut -f 1 -d ":"|grep -v ".cpp"|sort | uniq|tr '\n' ' ')"
-	    sed_code_trans "${en_string}" "${locale_string}" ${edit_code_file_list}
+	    edit_code_file_list="$(echo "${filter_result}"|cut -f 1 -d ":"|sort | uniq|tr '\n' ' ')"
+	    sed_code_trans "${en_string}" "${locale_string}" "${edit_code_file_list}"
 	    ;;
-	c|d)
+	c)
+	    #黑名单
+	    blacklist_line="84,85"
+	    if (echo "${blacklist_line}"|tr ',' '\n'|sed "s/^/./g;s/$/..g"|grep "${keynum}")
+	    then
+		true
+		#跳过翻译
+	    else
+		edit_code_file_list="$(echo "${filter_result}"|cut -f 1 -d ":"|sort | uniq|tr '\n' ' ')"
+		sed_code_trans "${en_string}" "${locale_string}" "${edit_code_file_list}"
+	    fi
+	    ;;
+	d)
+	    #白名单
+	    whitelist_line=""
+	    if (echo "${whitelist_line}"|tr ',' '\n'|sed "s/^/./g;s/$/..g"|grep "${keynum}")
+	    then
+		edit_code_file_list="$(echo "${filter_result}"|cut -f 1 -d ":"|sort | uniq|tr '\n' ' ')"
+		sed_code_trans "${en_string}" "${locale_string}" "${edit_code_file_list}"
+	    else
+		true
+	    fi
 	    ;;
 	e|f)
 	    ;;
@@ -40,7 +61,11 @@ do
     #en_string="$(xmllint --xpath ${key_xpath} ${en_xml}|sed "s#&amp;#&#g")"
     #locale_string="$(xmllint --xpath ${key_xpath} ${locale_xml}|sed "s#&amp;#&#g")"
     #edit_source_file=$(grep )
-    filter_result="$(grep -ir "\"$(echo "${en_string}"|sed 's#\\#\\\\#g')\"" * --binary-files=without-match|tr '\r' '\n')"
+    filter_result="$(grep -r "\"$(echo "${en_string}"|sed 's#\\#\\\\#g')\"" * --binary-files=without-match|tr '\r' '\n'|sed "/^ *$/d")"
+    if [ -z "${filter_result}" ]
+    then
+	filter_result="$(grep -ir "\"$(echo "${en_string}"|sed 's#\\#\\\\#g')\"" * --binary-files=without-match|tr '\r' '\n'|sed "/^ *$/d")"
+    fi
     filter_num=$(echo -n "${filter_result}"|wc -l)
     if !(echo ${en_string}|grep ' ' >/dev/null)
     then #无空格输出
@@ -84,6 +109,7 @@ do
 	    #echo "${filter_result}" |sed "s#^#[${keynum}]=#g" >> ${e}
 	fi
     fi
+    echo "${keynum}:${filter} s#${en_string}#${locale_string#g}" >>/tmp/aur_string.log
     echo  "${keynum}"-"${filter}""判断 "${en_string}" ,替换为 "${locale_string}""
     echo -ne "已筛选${keynum}/${key_total}\r"
     let keynum=keynum+1
