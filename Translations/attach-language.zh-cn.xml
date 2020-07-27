@@ -1,0 +1,108 @@
+<!--zh-cn-->
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_1">1-次擦除</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_2">35-次擦除</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_3">3-次擦除</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_4">7-次擦除</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_5">放弃(&amp;A)</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_6">登陆时执行的操作</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_7">将所有安装的卷添加到收藏夹...</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_8">将选定的卷添加到收藏夹...</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_9">后台任务</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_10">浏览...(&amp;B)</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_11">在内存中缓存密码和密钥文件</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_12">将密码缓存在内存中</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_13">更改标头密钥派生算法...</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_14">关闭正在卸载的卷的所有资源管理器窗口</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_15">确认密码:</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_16">数据单元数值（64-位十六进制，数据单元大小为 512 字节）</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_17">默认密钥文件</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_18">卸载全部加密卷，当</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_19">卸载已安装的卷</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_20">卸载后显示确认提示框</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_21">捐赠</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_22">不要通过使用处理器的AES指令来加速AES加密/解密</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_23">不要挂载</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_24">不要使用内核加密服务</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_25">启用</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_26">加密算法:</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_27">收藏夹(&amp;F)</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_28">文件系统</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_29">文件系统资源管理器</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_30">文件系统选项</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_31">文件系统类型:</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_32">首密钥</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_33">擦除标头</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_34">快捷键</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_35">快捷键...</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_36">内核服务</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_37">密钥文件</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_38">主密钥:</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_39">更多信息</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_40">挂载到文件夹:</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_41">挂载收藏加密卷</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_42">mount挂载选项:</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_43">挂载选项</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_44">以非预启动验证方式加载使用系统加密处理的分区(&amp;U)</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_45">以只读模式加载加密卷(&amp;R)</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_46">打开已安装的卷</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_47">操作(&amp;T)</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_48">页面标题</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_49">性能</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_50">PKCS #11 运行库路径</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_51">挂载/卸载后播放通知</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_52">偏好设置(&amp;P)</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_53">安装外部卷时保护隐藏卷</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_54">快速格式化</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_55">从鼠标移动中收集随机值</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_56">随机池</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_57">随机大小 ( 64 &lt;-&gt; 1048576 )</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_58">安全性</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_59">安全令牌</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_60">选择(&amp;l)</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_61">快捷键</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_62">显示</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_63">系统集成</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_64">系统进入待机状态</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_65">系统范围快捷键</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_66">任务图标菜单栏</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_67">使用密钥文件(&amp;S)</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_68">默认情况下使用密钥文件</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_69">加密卷</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_70">卷格式选项</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_71">加密卷 PIM:</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_72">加密卷属性</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_73">关闭VeraCrypt窗口后擦除</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_74">自动卸除卷之后擦除</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_75">&lt; 上一步(&amp;P)</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_76">&lt; 帮助(&amp;H)</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_77">如果您不需要在卷上存储大于4 GB（4,294,967,296字节）的文件，则选择此选项。</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_78">如果您不需要在其他平台上使用该卷，请选择此选项。</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_79">如果您需要在卷上存储大于4 GB（4,294,967,296字节）的文件，请选择此选项。</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_80">如果需要在其他平台上使用该卷，请选择此选项。</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_81">在分区/驱动器中创建加密卷(&amp;d)</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_82">跨平台支持</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_83">您是否要继续为外部卷使用选定的文件系统？</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_84">错误：要创建的隐藏卷大于 {0} TB ({1} GB)。\n\n可能的解决方案：\n- 创建小于{0} TB的容器/分区。\n</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_85">错误：您正在尝试加密系统驱动器。\n\nVeraCrypt只能在Windows下加密系统驱动器。</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_86">错误：您正在尝试加密系统分区。\n\nVeraCrypt只能在Windows下加密系统分区。</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_87">格式化选项</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_88">格式化和加密非系统分区，整个外部或辅助驱动器，整个USB存储器等。</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_89">隐藏卷</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_90">容器</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_91">我只会在 {0} 上安装该加密卷</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_92">我会将加密卷安装在其他平台上</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_93">我不会在卷上存储大于4 GB的文件</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_94">我将在卷上存储大于4 GB的文件</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_95">该卷的最大可能隐藏卷大小为 {0} 。</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_96">外部卷已成功创建并安装为  '{0}' 。现在，您应该向该卷复制一些您实际上不想隐藏的敏感文件。任何强迫您公开密码的人都可以找到这些文件。您将只显示该外部卷的密码，而不显示隐藏卷的密码。您真正关心的文件将存储在隐藏卷中，稍后将创建该隐藏卷。复制完成后，单击“下一步”。不要卸下该卷。\n\n注意：单击“下一步”后，将分析外部卷，以确定其末端与该卷的末端对齐的自由空间的连续区域的大小。该区域将容纳隐藏的体积，因此将限制其最大可能的大小。该过程可确保外部卷上的任何数据都不会被隐藏卷覆盖。</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_97">请注意，如果您的操作系统没有从可用空间的开头开始分配文件，则最大可能的隐藏卷大小可能比外部卷上的可用空间小得多。这不是VeraCrypt中的错误，而是操作系统的限制。</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_98">请注意，在这种情况下，VeraCrypt无法计算隐藏卷的确切最大允许大小，它将仅使用可能是错误的估计值。\n</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_99">请注意，该卷不会使用FAT文件系统进行格式化，因此，可能需要在 {0} 以外的平台上安装其他文件系统驱动程序，这将使您能够安装该卷。</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_100">当前已安装所选设备的文件系统。请先卸除“ {0}”，然后再继续。</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_101">因此，您有责任对隐藏卷的大小使用适当的值，以使其不与外部卷重叠。\n\n</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_102">- 使用具有4096字节扇区的驱动器能够创建最大16 TB的分区/设备托管隐藏卷</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_103">警告：设备的格式化将破坏文件系统 '{0}' 上的所有数据。\n\n是否要继续？</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_104">警告：您为外部卷选择了FAT以外的文件系统。\n</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_105">挂载</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_106">挂载目录</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_107">取消选择</entry>

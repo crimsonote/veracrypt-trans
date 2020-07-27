@@ -1,3 +1,4 @@
+# ============= src/Main/Forms/Forms.cpp ================
 EN:1-pass
 LOCALE:1-次擦除
 EN:35-pass
@@ -138,8 +139,6 @@ EN:System-Wide Hotkeys
 LOCALE:系统范围快捷键
 EN:Task Icon Menu Items
 LOCALE:任务图标菜单栏
-#EN:Times New Roman
-#LOCALE:
 EN:U&se keyfiles
 LOCALE:使用密钥文件(&S)
 EN:Use keyfiles by default
@@ -157,4 +156,70 @@ LOCALE:关闭VeraCrypt窗口后擦除
 EN:Wipe after volume has been auto-dismounted
 LOCALE:自动卸除卷之后擦除
 EN:< &Prev
-LOCALE:< 后退
+LOCALE:< 上一步(&P)
+EN:< &Help
+LOCALE:< 帮助(&H)
+# ================= src/Main/Forms/VolumeCreationWizard.cpp =====================
+EN:Choose this option if you do not need to store files larger than 4 GB (4,294,967,296 bytes) on the volume.
+LOCALE:如果您不需要在卷上存储大于4 GB（4,294,967,296字节）的文件，则选择此选项。
+EN:Choose this option if you do not need to use the volume on other platforms.
+LOCALE:如果您不需要在其他平台上使用该卷，请选择此选项。
+EN:Choose this option if you need to store files larger than 4 GB (4,294,967,296 bytes) on the volume.
+LOCALE:如果您需要在卷上存储大于4 GB（4,294,967,296字节）的文件，请选择此选项。
+EN:Choose this option if you need to use the volume on other platforms.
+LOCALE:如果需要在其他平台上使用该卷，请选择此选项。
+EN:Create a volume within a partition/&drive
+LOCALE:在分区/驱动器中创建加密卷(&d)
+EN:Cross-Platform Support
+LOCALE:跨平台支持
+EN:Do you want to continue using the selected filesystem for the outer volume?
+LOCALE:您是否要继续为外部卷使用选定的文件系统？
+EN:Error: The hidden volume to be created is larger than {0} TB ({1} GB).\n\nPossible solutions:\n- Create a container/partition smaller than {0} TB.\n
+LOCALE:错误：要创建的隐藏卷大于 {0} TB ({1} GB)。\n\n可能的解决方案：\n- 创建小于{0} TB的容器/分区。\n
+EN:Error: You are trying to encrypt a system drive.\n\nVeraCrypt can encrypt a system drive only under Windows.
+LOCALE:错误：您正在尝试加密系统驱动器。\n\nVeraCrypt只能在Windows下加密系统驱动器。
+EN:Error: You are trying to encrypt a system partition.\n\nVeraCrypt can encrypt system partitions only under Windows.
+LOCALE:错误：您正在尝试加密系统分区。\n\nVeraCrypt只能在Windows下加密系统分区。
+EN:Format Options
+LOCALE:格式化选项
+EN:Formats and encrypts a non-system partition, entire external or secondary drive, entire USB stick, etc.
+LOCALE:格式化和加密非系统分区，整个外部或辅助驱动器，整个USB存储器等。
+EN:hiddenvolume
+LOCALE:隐藏卷
+EN:introcontainer
+LOCALE:容器
+EN:I will mount the volume only on {0}
+LOCALE:我只会在 {0} 上安装该加密卷
+EN:I will mount the volume on other platforms
+LOCALE:我会将加密卷安装在其他平台上
+EN:I will not store files larger than 4 GB on the volume
+LOCALE:我不会在卷上存储大于4 GB的文件
+EN:I will store files larger than 4 GB on the volume
+LOCALE:我将在卷上存储大于4 GB的文件
+EN:Maximum possible hidden volume size for this volume is {0}.
+LOCALE:该卷的最大可能隐藏卷大小为 {0} 。
+EN:Outer volume has been successfully created and mounted as '{0}'. To this volume you should now copy some sensitive-looking files that you actually do NOT want to hide. The files will be there for anyone forcing you to disclose your password. You will reveal only the password for this outer volume, not for the hidden one. The files that you really care about will be stored in the hidden volume, which will be created later on. When you finish copying, click Next. Do not dismount the volume.\n\nNote: After you click Next, the outer volume will be analyzed to determine the size of uninterrupted area of free space whose end is aligned with the end of the volume. This area will accommodate the hidden volume, so it will limit its maximum possible size. The procedure ensures no data on the outer volume are overwritten by the hidden volume.
+LOCALE:外部卷已成功创建并安装为  '{0}' 。现在，您应该向该卷复制一些您实际上不想隐藏的敏感文件。任何强迫您公开密码的人都可以找到这些文件。您将只显示该外部卷的密码，而不显示隐藏卷的密码。您真正关心的文件将存储在隐藏卷中，稍后将创建该隐藏卷。复制完成后，单击“下一步”。不要卸下该卷。\n\n注意：单击“下一步”后，将分析外部卷，以确定其末端与该卷的末端对齐的自由空间的连续区域的大小。该区域将容纳隐藏的体积，因此将限制其最大可能的大小。该过程可确保外部卷上的任何数据都不会被隐藏卷覆盖。
+EN:Please note that if your operating system does not allocate files from the beginning of the free space, the maximum possible hidden volume size may be much smaller than the size of the free space on the outer volume. This is not a bug in VeraCrypt but a limitation of the operating system.
+LOCALE:请注意，如果您的操作系统没有从可用空间的开头开始分配文件，则最大可能的隐藏卷大小可能比外部卷上的可用空间小得多。这不是VeraCrypt中的错误，而是操作系统的限制。
+EN:Please Note that in this case VeraCrypt can't calculate the exact maximum allowed size for the hidden volume and it will use only an estimation that can be wrong.\n
+LOCALE:请注意，在这种情况下，VeraCrypt无法计算隐藏卷的确切最大允许大小，它将仅使用可能是错误的估计值。\n
+EN:Please note that the volume will not be formatted with a FAT filesystem and, therefore, you may be required to install additional filesystem drivers on platforms other than {0}, which will enable you to mount the volume.
+LOCALE:请注意，该卷不会使用FAT文件系统进行格式化，因此，可能需要在 {0} 以外的平台上安装其他文件系统驱动程序，这将使您能够安装该卷。
+EN:The filesystem of the selected device is currently mounted. Please dismount '{0}' before proceeding.
+LOCALE:当前已安装所选设备的文件系统。请先卸除“ {0}”，然后再继续。
+EN:Thus, it is your responsibility to use an adequate value for the size of the hidden volume so that it doesn\'t overlap the outer volume.\n\n
+LOCALE:因此，您有责任对隐藏卷的大小使用适当的值，以使其不与外部卷重叠。\n\n
+EN:- Use a drive with 4096-byte sectors to be able to create partition/device-hosted hidden volumes up to 16 TB in size
+LOCALE:- 使用具有4096字节扇区的驱动器能够创建最大16 TB的分区/设备托管隐藏卷
+EN:WARNING: Formatting of the device will destroy all data on filesystem '{0}'.\n\nDo you want to continue?
+LOCALE:警告：设备的格式化将破坏文件系统 '{0}' 上的所有数据。\n\n是否要继续？
+EN:WARNING: You have selected a filesystem other than FAT for the outer volume.\n
+LOCALE:警告：您为外部卷选择了FAT以外的文件系统。\n
+# 其他
+EN:Mount
+LOCALE:挂载
+EN:Mount Directory
+LOCALE:挂载目录
+EN:Deselect
+LOCALE:取消选择
