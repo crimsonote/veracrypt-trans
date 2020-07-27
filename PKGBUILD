@@ -13,7 +13,7 @@ arch=('i686' 'x86_64')
 license=('custom:TrueCrypt')
 depends=('fuse2>=2.8.0' 'wxgtk3>=3.0' 'libsm' 'device-mapper')
 optdepends=('sudo: mounting encrypted volumes as nonroot users')
-makedepends=('git' 'yasm' 'libxml2')
+makedepends=('git' 'yasm' 'libxml2' 'coreutils' )
 source=("${_pkgname}_${pkgver//_/-}.tar.gz::https://github.com/veracrypt/VeraCrypt/archive/${_pkgname}_${pkgver//_/-}.tar.gz"
 	no-makeself.patch
         veracrypt.desktop)

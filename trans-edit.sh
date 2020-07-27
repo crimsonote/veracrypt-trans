@@ -44,7 +44,6 @@ function continue_filter(){
     #根据grep搜索情况，进行替换操作
     case $1 in
 	a|b)
-	    echo "${filter_result}" >> /tmp/fulter,log
 	    edit_code_file_list="$(echo "${filter_result}"|cut -f 1 -d ":"|sort | uniq|tr '\n' ' ')"
 	    sed_code_trans "${en_string}" "${locale_string}" "${edit_code_file_list}"
 	    ;;
