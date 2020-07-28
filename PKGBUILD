@@ -17,7 +17,7 @@ makedepends=('git' 'yasm' 'libxml2' 'coreutils' )
 source=("${_pkgname}_${pkgver//_/-}.tar.gz::https://github.com/veracrypt/VeraCrypt/archive/${_pkgname}_${pkgver//_/-}.tar.gz"
 	"no-makeself.patch::https://gitlab.com/crimsonote/veracrypt-trans/-/raw/master/no-makeself.patch"
         "veracrypt.desktop::https://gitlab.com/crimsonote/veracrypt-trans/-/raw/master/veracrypt.desktop"
-	"trans-edit.sh::https://gitlab.com/crimsonote/veracrypt-trans/-/blob/128e174fc3e2d64eeabdd11fa91484c2c1e045cf/trans-edit.sh")
+	"trans-edit.sh::https://gitlab.com/crimsonote/veracrypt-trans/-/raw/128e174fc3e2d64eeabdd11fa91484c2c1e045cf/trans-edit.sh")
 sha512sums=('e077d6fe6a35234737387c4a6997399a251e238ab75524f53efe8ed742a35164fa4d5fcb0f15816dcb29d31fb8a4bb175d45b9aefb912c4747194fb320fa408d'
             '40c269859bb97fbcceb443e5f457788bac650271ed118ec79d34f56fc340ad6e613114fe905ec5aba8c4d171c51c9a6865f97e9fa1ba01fa98ef18be4e97bbe1'
             'f689ca64bac7042030de7714aed8cc89f2c5f87b407444b1b121491c1d89c147babaaa454ddc2a93b70ae20d4da59f96ad64f01b04bea9017d658c377faeb75d'
