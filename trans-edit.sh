@@ -5,13 +5,28 @@ function locale_var(){
     if [ ! -f "${source_path}/Translations/Language.${locale}.xml" ]
     then
 	locale="$(echo "${locale}"|cut -f 1 -d '-')"
-	if  [ ! -f "${source_path}/Translations/Language.${locale}.xml"]
+	if  [ ! -f "${source_path}/Translations/Language.${locale}.xml" ]
 	then
-	    echo "未找到所使用语言所对应的翻译文件${source_path}/Translations/Language.${locale}.xml"
+	    echo "未找到所使用语言所对应的翻译文件${source_path}Translations/Language.${locale}.xml"
 	    echo "The translation file ${source_path}/Translations/Language.${locale}.xml corresponding to the language used was not found"
 	    exit ;
+	else
+	    download_attach_language_file
 	fi
+    else
+	download_attach_language_file
     fi
+}
+function download_attach_language_file(){
+    #下载补充语言包
+    [ -f " ${source_path}/Translations/attach-${locale}-language.en.xml" ] ||\
+	wget https://gitlab.com/crimsonote/veracrypt-trans/-/raw/master/Translations/attach-${locale}-language.en.xml -O Translations/attach-${locale}-language.en.xml||\
+	wget https://github.com/crimsonote/veracrypt-trans/raw/master/Translations/attach-${locale}-language.en.xml -O Translations/attach-${locale}-language.en.xml||\
+	echo "补充原文下载失败"
+        [ -f " ${source_path}/Translations/attach-language.${locale}.xml" ] ||\
+	wget https://gitlab.com/crimsonote/veracrypt-trans/-/raw/master/Translations/attach-language.${locale}.xml -O Translations/attach-language.${locale}.xml||\
+	wget https://github.com/crimsonote/veracrypt-trans/raw/master/Translations/attach-language.${locale}.xml -O Translations/attach-language.${locale}.xml||\
+	(echo "补充译文下载失败";rm -f "Translations/attach-${locale}-language.en.xml")
 }
 function xml_var(){
     #用于提取xml翻译文件至变量并做修补
@@ -76,7 +91,7 @@ function continue_filter(){
 }
 
 TMPFILE="$(mktemp -td vera_transXXXXX)"
-source_path="./"
+source_path="."
 cd "${source_path}"
 locale_var
 en_xml_file="${source_path}/src/Common/Language.xml" 

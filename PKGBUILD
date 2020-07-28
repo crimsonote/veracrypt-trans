@@ -16,10 +16,13 @@ optdepends=('sudo: mounting encrypted volumes as nonroot users')
 makedepends=('git' 'yasm' 'libxml2' 'coreutils' )
 source=("${_pkgname}_${pkgver//_/-}.tar.gz::https://github.com/veracrypt/VeraCrypt/archive/${_pkgname}_${pkgver//_/-}.tar.gz"
 	no-makeself.patch
-        veracrypt.desktop)
+        veracrypt.desktop
+	#"trans-edit.sh::https://raw.githubusercontent.com/crimsonote/veracrypt-trans/93fa1e7edd452bedc7f16db97a07eb51b3be746c/trans-edit.sh"
+	"trans-edit.sh::https://gitlab.com/crimsonote/veracrypt-trans/-/raw/93fa1e7edd452bedc7f16db97a07eb51b3be746c/trans-edit.sh")
 sha512sums=('e077d6fe6a35234737387c4a6997399a251e238ab75524f53efe8ed742a35164fa4d5fcb0f15816dcb29d31fb8a4bb175d45b9aefb912c4747194fb320fa408d'
             '40c269859bb97fbcceb443e5f457788bac650271ed118ec79d34f56fc340ad6e613114fe905ec5aba8c4d171c51c9a6865f97e9fa1ba01fa98ef18be4e97bbe1'
-            'f689ca64bac7042030de7714aed8cc89f2c5f87b407444b1b121491c1d89c147babaaa454ddc2a93b70ae20d4da59f96ad64f01b04bea9017d658c377faeb75d')
+            'f689ca64bac7042030de7714aed8cc89f2c5f87b407444b1b121491c1d89c147babaaa454ddc2a93b70ae20d4da59f96ad64f01b04bea9017d658c377faeb75d'
+	    '5dc24362d3089ca2855b8da73db24212e8fd36adb6357dfff0054c6b56ef4250821e69d6b3d8438afb2fc41061fb1c1c7654983149ba909f7c1b0e8eac68d44e')
 provides=('veracrypt')
 conflicts=('veracrypt' 'veracrypt-git')
 
@@ -29,36 +32,34 @@ conflicts=('veracrypt' 'veracrypt-git')
 #}
 
 prepare() {
-  #cd $srcdir/${pkgname%-trans}/src
-  cd $srcdir/${_pkgname}-${_pkgname}_${pkgver//_/-}/src
-
-  chmod -R u+w . # WAT award
-  patch -Np1 < "${srcdir}/no-makeself.patch"
+    #cd $srcdir/${pkgname%-trans}/src
+    cd $srcdir/${_pkgname}-${_pkgname}_${pkgver//_/-}
+    cp $srcdir/../Translations/attach-language.*.xml Translations/ 2>&1||echo -n ""
+    bash $srcdir/../trans-edit.sh true
+    
+    cd $srcdir/${_pkgname}-${_pkgname}_${pkgver//_/-}/src
+    chmod -R u+w . # WAT award
+    patch -Np1 < "${srcdir}/no-makeself.patch"
 }
 
 build() {
-#  cd $srcdir/${pkgname%-trans}
-
-  cd $srcdir/${_pkgname}-${_pkgname}_${pkgver//_/-}
-  [ -f "/tmp/aur_veracrypt.log" ]&&rm /tmp/aur_veracrypt.log
-  cp $srcdir/../Translations/attach-language.*.xml Translations/
-  bash $srcdir/../trans-edit.sh true 
-  cd src
-  make PKG_CONFIG_PATH=/usr/lib/pkgconfig \
-    WX_CONFIG=/usr/bin/wx-config-gtk3 \
-    TC_EXTRA_LFLAGS+="-ldl ${LDFLAGS}" \
-    TC_EXTRA_CXXFLAGS="${CXXFLAGS} ${CPPFLAGS}" \
-    TC_EXTRA_CFLAGS="${CFLAGS} ${CPPFLAGS}"\
-    CC="clang" \
-    CXX="clang++"
+    #  cd $srcdir/${pkgname%-trans}
+    cd $srcdir/${_pkgname}-${_pkgname}_${pkgver//_/-}/src
+    make PKG_CONFIG_PATH=/usr/lib/pkgconfig \
+	 WX_CONFIG=/usr/bin/wx-config-gtk3 \
+	 TC_EXTRA_LFLAGS+="-ldl ${LDFLAGS}" \
+	 TC_EXTRA_CXXFLAGS="${CXXFLAGS} ${CPPFLAGS}" \
+	 TC_EXTRA_CFLAGS="${CFLAGS} ${CPPFLAGS}"\
+	 CC="clang" \
+	 CXX="clang++"
 }
 
 package() {
-  #  cd $srcdir/${pkgname%-trans}/src
-  cd $srcdir/${_pkgname}-${_pkgname}_${pkgver//_/-}/src
-  pwd
-  install -Dm 755 Main/${pkgname%-trans} "${pkgdir}/usr/bin/${pkgname%-trans}"
-  install -Dm 644 "${srcdir}/veracrypt.desktop" -t "${pkgdir}/usr/share/applications"
-  install -Dm 644 Resources/Icons/VeraCrypt-256x256.xpm "${pkgdir}/usr/share/pixmaps/veracrypt.xpm"
-  install -Dm 644 License.txt -t "${pkgdir}/usr/share/licenses/${pkgname%-trans}"
+    #  cd $srcdir/${pkgname%-trans}/src
+    cd $srcdir/${_pkgname}-${_pkgname}_${pkgver//_/-}/src
+    pwd
+    install -Dm 755 Main/${pkgname%-trans} "${pkgdir}/usr/bin/${pkgname%-trans}"
+    install -Dm 644 "${srcdir}/veracrypt.desktop" -t "${pkgdir}/usr/share/applications"
+    install -Dm 644 Resources/Icons/VeraCrypt-256x256.xpm "${pkgdir}/usr/share/pixmaps/veracrypt.xpm"
+    install -Dm 644 License.txt -t "${pkgdir}/usr/share/licenses/${pkgname%-trans}"
 }
