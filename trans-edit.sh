@@ -19,7 +19,7 @@ function xml_var(){
     let en_xml_end_line=en_xml_end_line-1  #因为sed的r会在行尾追加，所以需要减1
     locale_xml_end_line="$(grep '</localization>' -n "${locale_xml_file}"|cut -f 1 -d ':')"
     let locale_xml_end_line=locale_xml_end_line-1
-    en_xml="$(sed "${en_xml_end_line} r ${source_path}/Translations/attach-language.en.xml" "${en_xml_file}")"
+    en_xml="$(sed "${en_xml_end_line} r ${source_path}/Translations/attach-${locale}-language.en.xml" "${en_xml_file}")"
     locale_xml="$(sed "${locale_xml_end_line} r ${source_path}/Translations/attach-language.${locale}.xml" "${locale_xml_file}")"
 }
 function no_makeself(){

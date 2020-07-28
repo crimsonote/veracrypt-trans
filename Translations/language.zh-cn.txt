@@ -223,3 +223,5 @@ EN:Mount Directory
 LOCALE:挂载目录
 EN:Deselect
 LOCALE:取消选择
+#EN:Mount All Favorite Volumes
+LOCALE:挂载所有收藏的卷

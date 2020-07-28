@@ -18,7 +18,7 @@ function intermediate_file_for_xml(){
     while [ "${line}" -le "${total_line}" ]
     do
 	en_string="$(echo "${meso_var}"|sed -n "${line}p"|grep -E '^EN:'||error=99999999999999999999999)"
-	echo "<entry lang=\"en\" key=\"MAKE_TRANS_SUPP_${num}\">${en_string}</entry>"|sed "s#EN:##g" >> Translations/attach-language.en.xml
+	echo "<entry lang=\"en\" key=\"MAKE_TRANS_SUPP_${num}\">${en_string}</entry>"|sed "s#EN:##g" >> Translations/attach-${locale}-language.en.xml
 	let line=line+1
 	
 	locale_string="$(echo "${meso_var}"|sed -n "${line}p"|grep -E '^LOCALE:'||error=99999999999999999999999)"
