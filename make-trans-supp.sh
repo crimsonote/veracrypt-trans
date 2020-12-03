@@ -13,7 +13,7 @@ function intermediate_file_for_xml(){
     total_line="$(echo -n "${meso_var}"|grep -En '^EN:|^LOCALE:'|wc -l)"
     line=${start_line}
     num=1
-    echo "<!--en-->" >Translations/attach-language.en.xml
+    echo "<!--en-->" >Translations/attach-${locale}-language.en.xml
     echo "<!--${locale}-->" >Translations/attach-language.${locale}.xml
     while [ "${line}" -le "${total_line}" ]
     do
