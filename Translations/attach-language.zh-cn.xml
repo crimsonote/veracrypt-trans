@@ -103,6 +103,12 @@
 <entry lang="zh-cn" key="MAKE_TRANS_SUPP_102">- 使用具有4096字节扇区的驱动器能够创建最大16 TB的分区/设备托管隐藏卷</entry>
 <entry lang="zh-cn" key="MAKE_TRANS_SUPP_103">警告：设备的格式化将破坏文件系统 '{0}' 上的所有数据。\n\n是否要继续？</entry>
 <entry lang="zh-cn" key="MAKE_TRANS_SUPP_104">警告：您为外部卷选择了FAT以外的文件系统。\n</entry>
-<entry lang="zh-cn" key="MAKE_TRANS_SUPP_105">挂载</entry>
-<entry lang="zh-cn" key="MAKE_TRANS_SUPP_106">挂载目录</entry>
-<entry lang="zh-cn" key="MAKE_TRANS_SUPP_107">取消选择</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_105">需要管理员权限</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_106">输入您的用户密码或管理员密码:</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_107">为了使您的操作系统能够挂载新卷，必须使用文件系统对其进行格式化。请选择文件系统类型。\n\n如果要将卷托管在设备或分区上，则可以使用“快速格式化”跳过对该卷的可用空间进行加密。</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_108">隐藏卷密码(&amp;a)</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_109">系统加密密码长于{0}个字符。</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_110">挂载</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_111">挂载目录</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_112">取消选择</entry>
+<entry lang="zh-cn" key="MAKE_TRANS_SUPP_113">挂载所有收藏的卷</entry>

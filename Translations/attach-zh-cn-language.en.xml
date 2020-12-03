@@ -106,3 +106,116 @@
 <entry lang="en" key="MAKE_TRANS_SUPP_105">Mount</entry>
 <entry lang="en" key="MAKE_TRANS_SUPP_106">Mount Directory</entry>
 <entry lang="en" key="MAKE_TRANS_SUPP_107">Deselect</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_1">1-pass</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_2">35-pass</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_3">3-pass</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_4">7-pass</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_5">&amp;Abort</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_6">Actions to Perform when User Logs On</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_7">Add All Mounted Volumes to Favorites...</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_8">Add Selected Volume to Favorites...</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_9">Background Task</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_10">&amp;Browse...</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_11">Cach&amp;e passwords and keyfiles in memory </entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_12">Cache passwords in memory</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_13">Change Header Key Derivation Algorithm...</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_14">Close all Explorer windows of volume being dismounted</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_15">Confirm password:</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_16">Data unit number (64-bit, data unit size is 512 bytes)</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_17">Default Keyfiles</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_18">Dismount All Volumes When</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_19">Dismount Mounted Volumes</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_20">Display confirmation message box after dismount</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_21">Donate</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_22">Do not accelerate AES encryption/decryption by using the AES instructions of the processor</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_23">Do &amp;not mount</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_24">Do not use kernel cryptographic services</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_25">Enabled</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_26">Encryption algorithm:</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_27">&amp;Favorites</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_28">Filesystem</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_29">Filesystem Explorer</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_30">Filesystem Options</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_31">Filesystem type:</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_32">Header Key:</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_33">Header Wipe:</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_34">Hotkeys</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_35">Hotkeys...</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_36">Kernel Services</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_37">Keyfiles</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_38">Master Key:</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_39">More information</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_40">Mount at directory:</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_41">Mount favorite volumes</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_42">Mount options:</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_43">Mount Options</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_44">Mount partition &amp;using system encryption (preboot authentication)</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_45">Mount volume as &amp;read-only</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_46">Open Mounted Volumes</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_47">Op&amp;tions</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_48">Page Title</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_49">Performance</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_50">PKCS #11 Library Path</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_51">Play system notification sound after mount/dismount</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_52">&amp;Preferences...</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_53">&amp;Protect hidden volume when mounting outer volume</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_54">Quick format</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_55">Randomness Collected From Mouse Movements</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_56">Random Pool:</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_57">Random size (64 &lt;-&gt; 1048576)</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_58">Security</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_59">Security Tokens</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_60">Se&amp;lect...</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_61">Shortcut</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_62">Show</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_63">System Integration</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_64">System is entering power saving mode</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_65">System-Wide Hotkeys</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_66">Task Icon Menu Items</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_67">U&amp;se keyfiles</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_68">Use keyfiles by default</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_69">Volume</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_70">Volume Format Options</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_71">Volume PIM:</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_72">Volume Properties...</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_73">Wipe after VeraCrypt window has been closed</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_74">Wipe after volume has been auto-dismounted</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_75">&lt; &amp;Prev</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_76">&lt; &amp;Help</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_77">Choose this option if you do not need to store files larger than 4 GB (4,294,967,296 bytes) on the volume.</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_78">Choose this option if you do not need to use the volume on other platforms.</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_79">Choose this option if you need to store files larger than 4 GB (4,294,967,296 bytes) on the volume.</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_80">Choose this option if you need to use the volume on other platforms.</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_81">Create a volume within a partition/&amp;drive</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_82">Cross-Platform Support</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_83">Do you want to continue using the selected filesystem for the outer volume?</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_84">Error: The hidden volume to be created is larger than {0} TB ({1} GB).\n\nPossible solutions:\n- Create a container/partition smaller than {0} TB.\n</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_85">Error: You are trying to encrypt a system drive.\n\nVeraCrypt can encrypt a system drive only under Windows.</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_86">Error: You are trying to encrypt a system partition.\n\nVeraCrypt can encrypt system partitions only under Windows.</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_87">Format Options</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_88">Formats and encrypts a non-system partition, entire external or secondary drive, entire USB stick, etc.</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_89">hiddenvolume</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_90">introcontainer</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_91">I will mount the volume only on {0}</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_92">I will mount the volume on other platforms</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_93">I will not store files larger than 4 GB on the volume</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_94">I will store files larger than 4 GB on the volume</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_95">Maximum possible hidden volume size for this volume is {0}.</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_96">Outer volume has been successfully created and mounted as '{0}'. To this volume you should now copy some sensitive-looking files that you actually do NOT want to hide. The files will be there for anyone forcing you to disclose your password. You will reveal only the password for this outer volume, not for the hidden one. The files that you really care about will be stored in the hidden volume, which will be created later on. When you finish copying, click Next. Do not dismount the volume.\n\nNote: After you click Next, the outer volume will be analyzed to determine the size of uninterrupted area of free space whose end is aligned with the end of the volume. This area will accommodate the hidden volume, so it will limit its maximum possible size. The procedure ensures no data on the outer volume are overwritten by the hidden volume.</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_97">Please note that if your operating system does not allocate files from the beginning of the free space, the maximum possible hidden volume size may be much smaller than the size of the free space on the outer volume. This is not a bug in VeraCrypt but a limitation of the operating system.</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_98">Please Note that in this case VeraCrypt can't calculate the exact maximum allowed size for the hidden volume and it will use only an estimation that can be wrong.\n</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_99">Please note that the volume will not be formatted with a FAT filesystem and, therefore, you may be required to install additional filesystem drivers on platforms other than {0}, which will enable you to mount the volume.</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_100">The filesystem of the selected device is currently mounted. Please dismount '{0}' before proceeding.</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_101">Thus, it is your responsibility to use an adequate value for the size of the hidden volume so that it doesn\'t overlap the outer volume.\n\n</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_102">- Use a drive with 4096-byte sectors to be able to create partition/device-hosted hidden volumes up to 16 TB in size</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_103">WARNING: Formatting of the device will destroy all data on filesystem '{0}'.\n\nDo you want to continue?</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_104">WARNING: You have selected a filesystem other than FAT for the outer volume.\n</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_105">Administrator privileges required</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_106">enter you user password or administrator password:</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_107">In order to enable your operating system to mount your new volume, it has to be formatted with a filesystem. Please select a filesystem type.\n\nIf your volume is going to be hosted on a device or partition, you can use 'Quick format' to skip encryption of free space of the volume.</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_108">P&amp;assword to hidden volume:</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_109">System Encryption password is longer than {0} characters.</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_110">Mount</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_111">Mount Directory</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_112">Deselect</entry>
+<entry lang="en" key="MAKE_TRANS_SUPP_113">Mount All Favorite Volumes</entry>
