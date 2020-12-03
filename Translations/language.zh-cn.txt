@@ -216,6 +216,21 @@ EN:WARNING: Formatting of the device will destroy all data on filesystem '{0}'.\
 LOCALE:警告：设备的格式化将破坏文件系统 '{0}' 上的所有数据。\n\n是否要继续？
 EN:WARNING: You have selected a filesystem other than FAT for the outer volume.\n
 LOCALE:警告：您为外部卷选择了FAT以外的文件系统。\n
+# ============== src/Main/Forms/WaitDialog.h =====================
+EN:Administrator privileges required
+LOCALE:需要管理员权限
+EN:enter you user password or administrator password:
+LOCALE:输入您的用户密码或管理员密码:
+# ========== src/Main/Forms/VolumeFormatOptionsWizardPage.cpp =====================
+EN:In order to enable your operating system to mount your new volume, it has to be formatted with a filesystem. Please select a filesystem type.\n\nIf your volume is going to be hosted on a device or partition, you can use 'Quick format' to skip encryption of free space of the volume.
+LOCALE:为了使您的操作系统能够挂载新卷，必须使用文件系统对其进行格式化。请选择文件系统类型。\n\n如果要将卷托管在设备或分区上，则可以使用“快速格式化”跳过对该卷的可用空间进行加密。
+#========== src/Main/Forms/MountOptionsDialog.cpp ================
+#EN:hiddenvolprotection
+#LOCALE:
+EN:P&assword to hidden volume:
+LOCALE:隐藏卷密码(&a)
+EN:System Encryption password is longer than {0} characters.
+LOCALE:系统加密密码长于{0}个字符。
 # 其他
 EN:Mount
 LOCALE:挂载
@@ -223,5 +238,5 @@ EN:Mount Directory
 LOCALE:挂载目录
 EN:Deselect
 LOCALE:取消选择
-#EN:Mount All Favorite Volumes
+EN:Mount All Favorite Volumes
 LOCALE:挂载所有收藏的卷
